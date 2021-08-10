@@ -8,8 +8,8 @@ export default function HomePage() {
     <div className={styles.container}>
       <Head>
         <title>Steven Watson</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Steven Watson | Frontend Developer" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <Header />

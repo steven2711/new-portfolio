@@ -1,34 +1,14 @@
 .title h1 {
-  background-image: linear-gradient(
-    to right,
-    #0fff00,
-    #fff000,
-    #f000ff,
-    #000fff
-  );
-  background-clip: text;
-
   color: white;
   font-size: 7rem;
-  font-weight: 100;
   letter-spacing: 0.2rem;
   animation: letterSpace 3s ease forwards;
-  /* color-change 20s linear infinite alternate; */
 }
 
 .title p {
   font-size: 3rem;
-
   letter-spacing: 0.2rem;
   margin: 1rem 0;
-  /* background-image: linear-gradient(
-    to left,
-    #0fff00,
-    #fff000,
-    #f000ff,
-    #000fff
-  );
-  background-clip: text; */
   color: white;
   opacity: 0;
   animation: letterSpace 3s ease 1s forwards;
@@ -42,27 +22,6 @@
   to {
     letter-spacing: 0.2rem;
     opacity: 1;
-  }
-}
-
-@keyframes color-change {
-  0% {
-    color: #001eff;
-  }
-  20% {
-    color: #74ee15;
-  }
-  40% {
-    color: #ffe700;
-  }
-  60% {
-    color: #f000ff;
-  }
-  80% {
-    color: #001eff;
-  }
-  100% {
-    color: #4deeea;
   }
 }
 
@@ -87,11 +46,11 @@
 
 @media (max-width: 540px) {
   .title h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .title p {
     animation: fadeIn 1s ease 2s forwards;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }

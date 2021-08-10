@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh;
+  height: 100vh;
   font-family: "Righteous", cursive;
 }
 
@@ -25,7 +25,4 @@
   height: 100%;
   z-index: -9;
   background: rgba(0, 0, 0, 0.4);
-}
-
-@media (max-width: 1024px) {
 }
