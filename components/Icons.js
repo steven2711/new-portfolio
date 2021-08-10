@@ -16,7 +16,7 @@ export default function Icons() {
         <FaGithub />
       </a>
 
-      <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>
+      <a href="mailto:swatson.emu@gmail.com">
         <FaEnvelope />
       </a>
 
