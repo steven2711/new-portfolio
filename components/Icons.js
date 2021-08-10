@@ -7,19 +7,16 @@ export default function Icons() {
       <a
         href="https://www.linkedin.com/in/stevenwatson47/"
         target="_blank"
-        rel="nofollow"
+        rel="noreferrer"
       >
         <FaLinkedin />
       </a>
 
-      <a href="https://github.com/steven2711" target="_blank" rel="nofollow">
+      <a href="https://github.com/steven2711" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
 
-      <a
-        href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-        target="_blank"
-      >
+      <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>
         <FaEnvelope />
       </a>
 

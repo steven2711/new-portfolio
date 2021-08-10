@@ -6,7 +6,7 @@ export default function Title() {
     <div className={styles.title}>
       <h1>
         Hello, <br />
-        I'm Steven
+        I&apos;m Steven
       </h1>
       <p>frontend developer</p>
       <Icons />
