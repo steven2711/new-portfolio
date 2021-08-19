@@ -8,7 +8,7 @@ export default function Header() {
       <Title />
       <video src="/video/background.mp4" muted autoPlay loop></video>
       <div className={styles.overlay}></div>
-      <ArrowLink />
+      {/* <ArrowLink /> */}
     </header>
   );
 }
