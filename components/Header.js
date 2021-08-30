@@ -1,14 +1,14 @@
-import styles from "../styles/Header.module.css";
+import styles from "../styles/Header.module.scss";
 import Title from "./Title";
-import ArrowLink from "./ArrowLink";
+import Button from "./Button";
+import VideoBackground from "./VideoBackground";
 
 export default function Header() {
   return (
     <header className={styles.header}>
+      <VideoBackground />
       <Title />
-      <video src="/video/background.mp4" muted autoPlay loop></video>
-      <div className={styles.overlay}></div>
-      {/* <ArrowLink /> */}
+      <Button text="projects" path="/projects" direction="down" />
     </header>
   );
 }

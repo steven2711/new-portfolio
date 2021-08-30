@@ -1,5 +1,5 @@
 import Icons from "./Icons";
-import styles from "../styles/Title.module.css";
+import styles from "../styles/Title.module.scss";
 
 export default function Title() {
   return (

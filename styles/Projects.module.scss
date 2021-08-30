@@ -1,0 +1,21 @@
+@import "mixins";
+
+.container {
+  padding: 3rem;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  @include phone {
+    padding: 3rem 1rem;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+}
