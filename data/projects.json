@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Cyber Dojo",
+    "type": "Personal",
+    "website": "https://www.cyberdojo.co",
+    "ongoing": false,
+    "description": "This is my marketing website for freelance projects.",
+    "stack": ["Next.js"],
+    "image": "/images/cyber-dojo.png"
+  },
+  {
+    "title": "Debra Winans",
+    "type": "Client",
+    "website": "https://www.debradwinans.com",
+    "ongoing": true,
+    "description": "Debra wanted a simple site that would provide a portal to sell her books and events. Working on implementing a shopping section.",
+    "stack": ["Next.js"],
+    "image": "/images/debra-winans.png"
+  },
+  {
+    "title": "Integrity Care of Middle Tennessee",
+    "type": "Client",
+    "website": "https://www.integritycareofmiddletn.co",
+    "ongoing": true,
+    "description": "This website is for a small, local medical practice. I choose a barebones solution to sharpen my vanilla skills.",
+    "stack": ["HTML, CSS, Javascript, Sass"],
+    "image": "/images/icmt.png"
+  },
+  {
+    "title": "Anything Pool Tables",
+    "type": "Personal/Course",
+    "website": "https://www.anythingpooltables.com",
+    "ongoing": true,
+    "description": "Built a blog to sharpen my SEO and marketing skills.",
+    "stack": ["Next.js"],
+    "image": "/images/apt.png"
+  },
+  {
+    "title": "Dev Bootcamp",
+    "type": "Course",
+    "website": "#",
+    "ongoing": false,
+    "description": "#",
+    "stack": ["Node, Express, MongoDB"],
+    "image": "/images/cyber-dojo.png"
+  }
+]

@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid red;
+  width: 35rem;
+  margin: 2rem;
+  border-radius: 15px;
+}
+
+.card .cardHeader img {
+  border-radius: 15px 15px 0 0;
+}
+
+.cardBody {
+  padding: 1rem;
+}

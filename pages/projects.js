@@ -1,7 +1,13 @@
+import projects from "../data/projects.json";
+import Project from "../components/Project";
+import styles from "../styles/Projects.module.css";
+
 export default function ProjectsPage() {
   return (
-    <div>
-      <h1>some fucking colorful projects here</h1>
+    <div className={styles.container}>
+      {projects.map((project, index) => {
+        return <Project key={index} data={project} />;
+      })}
     </div>
   );
 }
