@@ -27,13 +27,13 @@ export default function ProjectsPage() {
 
   return (
     <motion.div
-    // initial="pageEnter"
-    // animate="pageFinish"
-    // exit="pageExit"
-    // variants={animations}
+      initial="pageEnter"
+      animate="pageFinish"
+      exit="pageExit"
+      variants={animations}
     >
       <div className={styles.container}>
-        <VideoBackground />
+        {/* <VideoBackground /> */}
         <Button text="home" path="/" direction="up" />
         <div className={styles.projects}>
           {projects.map((project, index) => (

@@ -26,10 +26,10 @@ export default function HomePage() {
 
   return (
     <motion.div
-    // initial="pageEnter"
-    // animate="pageFinish"
-    // exit="pageExit"
-    // variants={animations}
+      initial="pageEnter"
+      animate="pageFinish"
+      exit="pageExit"
+      variants={animations}
     >
       <Head>
         <title>Steven Watson</title>

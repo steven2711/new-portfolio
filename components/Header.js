@@ -6,7 +6,7 @@ import VideoBackground from "./VideoBackground";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <VideoBackground />
+      {/* <VideoBackground /> */}
       <Title />
       <Button text="projects" path="/projects" direction="down" />
     </header>
