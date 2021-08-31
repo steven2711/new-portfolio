@@ -33,7 +33,7 @@ export default function ProjectsPage() {
       variants={animations}
     >
       <div className={styles.container}>
-        {/* <VideoBackground /> */}
+        <VideoBackground />
         <Button text="home" path="/" direction="up" />
         <div className={styles.projects}>
           {projects.map((project, index) => (
