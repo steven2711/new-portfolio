@@ -27,10 +27,10 @@ export default function ProjectsPage() {
 
   return (
     <motion.div
-      initial="pageEnter"
-      animate="pageFinish"
-      exit="pageExit"
-      variants={animations}
+    // initial="pageEnter"
+    // animate="pageFinish"
+    // exit="pageExit"
+    // variants={animations}
     >
       <div className={styles.container}>
         <VideoBackground />
