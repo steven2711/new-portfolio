@@ -19,7 +19,7 @@ export default function HomePage() {
     pageFinish: {
       opacity: 1,
       transition: {
-        duration: 2,
+        duration: 1,
       },
     },
   };

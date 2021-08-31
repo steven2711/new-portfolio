@@ -20,7 +20,7 @@ export default function ProjectsPage() {
     pageFinish: {
       opacity: 1,
       transition: {
-        duration: 2,
+        duration: 1,
       },
     },
   };
