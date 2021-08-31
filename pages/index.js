@@ -5,32 +5,8 @@ import Header from "../components/Header";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
-  const animations = {
-    pageExit: {
-      filter: `blur(20px)`,
-      opacity: 0,
-      transition: {
-        duration: 1,
-      },
-    },
-    pageEnter: {
-      opacity: 0,
-    },
-    pageFinish: {
-      opacity: 1,
-      transition: {
-        duration: 1,
-      },
-    },
-  };
-
   return (
-    <motion.div
-      initial="pageEnter"
-      animate="pageFinish"
-      exit="pageExit"
-      variants={animations}
-    >
+    <motion.div>
       <Head>
         <title>Steven Watson</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />

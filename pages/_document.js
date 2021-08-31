@@ -24,6 +24,10 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
             rel="stylesheet"
           />
+          {/* link manifest.json  */}
+          <link rel="manifest" href="/manifest.json" />
+          {/* this sets the color of url bar  */}
+          {/* <meta name="theme-color" content="" /> */}
         </Head>
         <body>
           <Main />
