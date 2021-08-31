@@ -1,9 +1,8 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaDownload } from "react-icons/fa";
-import styles from "../styles/Icons.module.scss";
 
 export default function Icons() {
   return (
-    <div className={styles.icons}>
+    <div className="icons">
       <a
         href="https://www.linkedin.com/in/stevenwatson47/"
         target="_blank"

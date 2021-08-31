@@ -1,6 +1,5 @@
 import projects from "../data/projects.json";
 import Project from "../components/Project";
-import styles from "../styles/Projects.module.scss";
 import Button from "../components/Button";
 import VideoBackground from "../components/VideoBackground";
 import { motion } from "framer-motion";
@@ -32,10 +31,10 @@ export default function ProjectsPage() {
       exit="pageExit"
       variants={animations}
     >
-      <div className={styles.container}>
+      <div className="projects">
         <VideoBackground />
         <Button text="home" path="/" direction="up" />
-        <div className={styles.projects}>
+        <div className="project-container">
           {projects.map((project, index) => (
             <Project key={index} data={project} />
           ))}

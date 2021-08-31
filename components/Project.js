@@ -1,5 +1,4 @@
 import Link from "next/link";
-import styles from "../styles/Project.module.scss";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -7,9 +6,9 @@ export default function Project({
   data: { title, type, website, ongoing, description, stack, image },
 }) {
   return (
-    <div className={styles.card}>
+    <div className="card">
       <a href={website} target="_blank" rel="noopener noreferrer">
-        <div className={styles.header}>
+        <div className="card-header">
           <Image
             src={image}
             height={570}
@@ -18,7 +17,7 @@ export default function Project({
             layout="responsive"
           />
         </div>
-        <div className={styles.cardInfo}>
+        <div className="card-info">
           <h2>{title}</h2>
 
           <div>

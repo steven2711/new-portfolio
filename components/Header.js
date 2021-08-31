@@ -1,4 +1,3 @@
-import styles from "../styles/Header.module.scss";
 import Title from "./Title";
 import Button from "./Button";
 import VideoBackground from "./VideoBackground";
@@ -30,7 +29,7 @@ export default function Header() {
       exit="pageExit"
       variants={animations}
     >
-      <header className={styles.header}>
+      <header className="header">
         <VideoBackground />
         <Title />
         <Button text="projects" path="/projects" direction="down" />
