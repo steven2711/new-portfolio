@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 export default function Project({
   data: { title, type, website, ongoing, description, stack, image },
@@ -15,6 +13,7 @@ export default function Project({
             width={998}
             alt={title}
             layout="responsive"
+            priority={true}
           />
         </div>
         <div className="card-info">
