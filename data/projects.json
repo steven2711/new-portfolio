@@ -34,5 +34,14 @@
     "description": "Built a blog to sharpen my SEO and marketing skills.",
     "stack": ["Next.js"],
     "image": "/images/apt.png"
+  },
+  {
+    "title": "DevCamper Bootcamp API",
+    "type": "Course",
+    "website": "https://devcamper-2021.herokuapp.com/",
+    "ongoing": false,
+    "description": "This project was built as part of a course I took to enhance my Node.js. skills.",
+    "stack": ["Next.js"],
+    "image": "/images/devcamper.png"
   }
 ]
