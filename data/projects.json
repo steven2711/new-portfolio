@@ -41,7 +41,7 @@
     "website": "https://devcamper-2021.herokuapp.com/",
     "ongoing": false,
     "description": "This project was built as part of a course I took to enhance my Node.js. skills.",
-    "stack": ["Next.js"],
+    "stack": ["Node.js, Express.js, MongoDB"],
     "image": "/images/devcamper.png"
   }
 ]
