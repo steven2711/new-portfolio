@@ -43,5 +43,14 @@
     "description": "This project was built as part of a course I took to enhance my Node.js. skills.",
     "stack": ["Node.js, Express.js, MongoDB"],
     "image": "/images/devcamper.png"
+  },
+  {
+    "title": "Beach Resort",
+    "type": "Course",
+    "website": "https://react-beach-resort-2021.netlify.app/",
+    "ongoing": false,
+    "description": "This project was built as part of a course I took to enhance my React.js skills.",
+    "stack": ["React.js, Contentful"],
+    "image": "/images/react-beach-resort.png"
   }
 ]
